@@ -28,6 +28,7 @@ express.static.mime.define({
 console.log('');
 console.log(`Server environment is ${process.env.NODE_ENV}`);
 console.log(`Server public dir set to ${config.publicDir}`);
+console.log(`Server setup complete`);
 
 // Compress responses
 app.use(compress());
