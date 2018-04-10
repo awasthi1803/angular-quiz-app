@@ -1,5 +1,4 @@
 var assign = require('lodash.assign');
-
 /*
 |--------------------------------------------------------------------------
 | BUILD CONFIGURATION
